@@ -1,0 +1,82 @@
+name: kivicare_flutter
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 3.0.5
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+
+  # Firebase for crashlytics and googlesign in for calender
+  firebase_core: ^2.1.1
+  firebase_crashlytics: ^3.0.4
+  firebase_analytics: ^10.0.4
+  firebase_auth: ^4.1.1
+  google_sign_in: ^5.4.1
+  cloud_firestore: ^4.0.4
+  firebase_remote_config: ^3.0.4
+
+  #State Management Technique
+  mobx: ^2.0.7+5
+  flutter_mobx: ^2.0.6+1
+
+  nb_utils: ^4.6.21
+  scan: ^1.6.0
+
+  #API calling
+  http: ^0.13.5
+  html: ^0.15.0
+  flutter_html: ^3.0.0-alpha.6
+  intl: ^0.17.0
+
+  # Images and Icons
+  flutter_svg: ^1.1.6
+  font_awesome_flutter: ^10.2.1
+  cached_network_image: ^3.2.0
+  lottie: ^1.4.2
+  open_file: ^3.0.0
+  webview_flutter: ^3.0.4
+  flutter_slidable: 2.0.0
+  percent_indicator: 4.2.2
+
+  # bar chart
+  fl_chart: ^0.55.1
+
+  #APP Information
+  url_launcher: ^6.1.5
+  share: ^2.0.4
+
+  # Pickers for image and file
+  image_picker: ^0.8.5+3
+  file_picker: ^4.6.1
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.0.7
+  build_runner: ^2.2.1
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/icons/
+    - images/doctorAvatars/
+    - images/servicesicon/
+    - images/patientAvatars/
+    - images/flags/
+    - lang/
+
